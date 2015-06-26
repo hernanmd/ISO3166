@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/26/2015 03:49",
+	"super" : "Object",
+	"category" : "ISO3166-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"ISO31662LetterCodes",
+		"ISO31663LetterCodes"
+	],
+	"instvars" : [ ],
+	"name" : "ISO3166",
+	"type" : "normal"
+}

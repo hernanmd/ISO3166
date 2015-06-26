@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ISO3166-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"codeNumber",
+		"codeTwoLetter",
+		"codeThreeLetter",
+		"ccTLD",
+		"countryName"
+	],
+	"name" : "ISO3166Code",
+	"type" : "normal"
+}

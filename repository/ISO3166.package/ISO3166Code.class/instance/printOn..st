@@ -2,4 +2,9 @@ printing
 printOn: aStream
 	" Private - See superimplementor's comment "
 	
-	^ aStream nextPutAll: self countryName
+	super printOn: aStream.
+	aStream 
+		space;
+		nextPut: $(;
+		nextPutAll: self countryName;
+		nextPut: $)

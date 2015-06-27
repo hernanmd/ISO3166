@@ -1,5 +1,7 @@
 accessing
-codeNumberFrom2LetterCode: aString
-	" self codeNumberFromLetterCode: 'AR' -> '32' "
+codeNumberFrom2LetterCode: countryString
+	" Answer a <String> decimal representation of a two-letter country code countryString
 	
-	^ (self at2LetterCode: aString) codeNumber
+	Example: self codeNumberFromLetterCode: 'AR' -> '32' "
+	
+	^ (self at2LetterCode: countryString ifAbsent: [ self error: 'ISO Country Code not found: ' , countryString asString ]) codeNumber

@@ -1,5 +1,6 @@
 private
 downloadResource
+	" Private - Download the resource data for building ISO codes "
 
 	| publicCSV  |
 	publicCSV := self resourceUrl.

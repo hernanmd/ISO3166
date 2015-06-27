@@ -1,3 +1,3 @@
 accessing
-codeNumber: anObject
-	codeNumber := anObject
+codeNumber: aNumber
+	codeNumber := aNumber

@@ -3,6 +3,7 @@ initializeData: responseString
 	" Private - Parse responseString "
 	
 	(NeoCSVReader on: responseString readStream) 
+		skipHeader;
 		separator: $,;
 		do: [ : row | 
 			| isoRecord |

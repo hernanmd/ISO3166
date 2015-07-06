@@ -1,7 +1,13 @@
 Usage
 =====
 
+To get a sorted Collection with all ISO-3166 2-letter codes:
 ISO3166 sortedIso31662LetterCodes.
+
+To get a sorted Collection with all ISO-3166 3-letter codes:
+ISO3166 sortedIso31663LetterCodes.
+
+To populate the ISO-3166 codes from remote data source:
 ISO3166 initialize.
 
 References

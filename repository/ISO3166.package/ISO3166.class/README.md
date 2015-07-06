@@ -1,5 +1,15 @@
-See https://www.iso.org/obp/ui/#iso:pub:PUB500001:en for the official ISO Country Codes
-See https://en.wikipedia.org/wiki/ISO_3166 for general details about the standard.
+Usage
+=====
+
+ISO3166 sortedIso31662LetterCodes.
+ISO3166 initialize.
+
+References
+==========
+
+See http://www.iso.org/obp/ui/#iso:pub:PUB500001:en for the official ISO Country Codes
+
+See http://en.wikipedia.org/wiki/ISO_3166 for general details about the standard.
 
 This class uses resource data from DataHub.io: http://datahub.io/dataset/iso-3166-2-data
 
@@ -11,4 +21,4 @@ ISO3166
 	ISO 3166-2
 
 
-ISO3166 initialize.
+

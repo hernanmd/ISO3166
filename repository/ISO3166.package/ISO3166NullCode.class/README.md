@@ -1,1 +1,0 @@
-Do not use this class. Private Null class for unassigned territories.

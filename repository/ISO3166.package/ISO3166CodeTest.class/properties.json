@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "ISO3166-Core",
+	"category" : "ISO3166-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"iso3166Code"
+	],
 	"name" : "ISO3166CodeTest",
 	"type" : "normal"
 }

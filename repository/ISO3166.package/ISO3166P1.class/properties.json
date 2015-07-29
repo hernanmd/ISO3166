@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HernanMoralesDurand 7/23/2015 03:08",
+	"commentStamp" : "HernanMoralesDurand 7/29/2015 21:11",
 	"super" : "Object",
 	"category" : "ISO3166-Core",
 	"classinstvars" : [ ],
@@ -9,6 +9,6 @@
 		"ISO31663LetterCodes"
 	],
 	"instvars" : [ ],
-	"name" : "ISO3166",
+	"name" : "ISO3166P1",
 	"type" : "normal"
 }

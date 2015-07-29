@@ -1,4 +1,4 @@
 running
 setUp
 
-	iso3166Code := ISO3166Code new 
+	iso3166Code := ISO3166P1Code new 

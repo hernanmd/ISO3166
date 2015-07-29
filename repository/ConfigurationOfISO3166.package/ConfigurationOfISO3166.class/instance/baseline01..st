@@ -10,4 +10,4 @@ baseline01: spec
 					className: #ConfigurationOfNeoCSV;
 					versionString: #'stable';
 					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo40/main/' ].
-		spec package: #ISO3166P1. ].
+		spec package: #ISO3166. ].

@@ -11,4 +11,4 @@ testCodeTwoLetter
 	self assert: self iso3166Code codeTwoLetter = String empty.
 
 	self iso3166Code codeTwoLetter: nil.
-	self assert: self iso3166Code codeThreeLetter = ISO3166Code defaultNullIdentifier.
+	self assert: self iso3166Code codeThreeLetter = ISO3166P1Code defaultNullIdentifier.

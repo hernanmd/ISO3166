@@ -12,6 +12,6 @@
 		"ccTLD",
 		"countryName"
 	],
-	"name" : "ISO3166Code",
+	"name" : "ISO3166P1Code",
 	"type" : "normal"
 }

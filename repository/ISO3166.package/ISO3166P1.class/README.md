@@ -1,9 +1,5 @@
 Usage
 =====
-
-To populate the ISO-3166 codes from remote data source:
-ISO3166P1 initialize.
-
 To get a sorted Collection with all ISO-3166 codes:
 ISO3166P1 sortedIso3166Codes.
 

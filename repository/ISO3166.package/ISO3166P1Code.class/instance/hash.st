@@ -2,4 +2,4 @@ comparing
 hash
 	"Since #= is overridden."
 	
-	^ self countryCode hash bitXor: self countryName hash
+	^ self codeNumber hash bitXor: self countryName hash

@@ -5,4 +5,4 @@ comparing
 	 (b) they have the same code.
 	 (c) they have the same name."
 	
-	^ self countryCode = anISO3166Code countryCode and: [ self countryName = anISO3166Code countryName ]
+	^ self codeNumber = anISO3166Code codeNumber and: [ self countryName = anISO3166Code countryName ]

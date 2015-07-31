@@ -8,6 +8,6 @@
 	"instvars" : [
 		"iso3166Code"
 	],
-	"name" : "ISO3166CodeTest",
+	"name" : "ISO3166P1CodeTest",
 	"type" : "normal"
 }

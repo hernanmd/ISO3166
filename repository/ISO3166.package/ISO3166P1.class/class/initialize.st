@@ -4,4 +4,4 @@ initialize
 	
 	ISO31662LetterCodes := nil.
 	ISO31663LetterCodes := nil.
-	self initializeData: self downloadResource 
+	self initializeData: self resourceData. 

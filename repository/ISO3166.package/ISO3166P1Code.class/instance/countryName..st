@@ -1,3 +1,5 @@
 accessing
-countryName: anObject
-	countryName := anObject
+countryName: aString
+	" Set the receiver's name to be aString "
+
+	countryName := aString

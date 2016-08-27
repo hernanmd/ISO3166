@@ -3,7 +3,7 @@ newCountryCode: aString
 	" Answer a new <ISO3166P1> country code for aStrign "
 
 	| cc |
-	cc := ISO3166P1Code new.
+	cc := self new.
 	aString size = 2
 		ifTrue: [ cc codeTwoLetter: aString ]
 		ifFalse: [ aString size = 3

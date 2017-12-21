@@ -1,10 +1,10 @@
 Usage
 =====
 To get a sorted Collection with all ISO-3166 codes:
-ISO3166P1 sortedIso3166Codes.
+ISO3166P1 sortedCountryCodes
 
-To obtain all the countries with official assigned codes:
-ISO3166P1 sortedIso3166AssignedCodes 
+To obtain all the countries with official country names:
+ISO3166P1 sortedCountryNames. 
 
 One can query for both letter codes simulteaneously with one message:
 ISO3166P1 atLetterCode: 'FR'.

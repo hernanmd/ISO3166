@@ -8,6 +8,7 @@ ISO 3166-1 implementation for Pharo Smalltalk
 
 (Note: The #stable version can also be installed from the Catalog Browser)
 
+[//]: # (pist)
 ```smalltalk
 Metacello new   
   smalltalkhubUser: 'hernan'   
@@ -17,6 +18,7 @@ Metacello new
   load
 ```
 
+[//]: # (pidev)
 ## Development version
 
 ```smalltalk

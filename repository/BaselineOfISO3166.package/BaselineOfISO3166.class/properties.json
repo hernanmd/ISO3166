@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 3/29/2018 19:10",
+	"super" : "BaselineOf",
+	"category" : "BaselineOfISO3166",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfISO3166",
+	"type" : "normal"
+}

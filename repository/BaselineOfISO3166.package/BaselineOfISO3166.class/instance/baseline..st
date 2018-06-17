@@ -1,6 +1,6 @@
 baselines
 baseline: spec
-<baseline>
+	<baseline>
 
 	spec for: #common do: [
 		spec
@@ -9,6 +9,6 @@ baseline: spec
 				spec
 					className: 'ConfigurationOfNeoCSV';
 					version: #stable;
-					repository: 'github://svenvc/NeoCSV:master/repository' ].
+					repository: 'github://svenvc/NeoCVS:master/repository' ].
 		spec 
 			package: 'ISO3166' with: [ spec requires: #('NeoCSV'). ] ]

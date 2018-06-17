@@ -4,31 +4,31 @@ ISO 3166-1 implementation for Pharo Smalltalk
 
 # Installation
 
-## Stable version
+## Install ISO3166 from Command-Line Interface using Pharo Install:
 
-(Note: The #stable version can also be installed from the Catalog Browser)
+```bash
+pi install ISO3166
+```
+
+## Install ISO3166 from Pharo
 
 [//]: # (pist)
 ```smalltalk
-Metacello new   
-  smalltalkhubUser: 'hernan'   
-  project: 'ISO3166';    
-  configuration: 'ISO3166';    
-  version: #stable;
-  load
+  Metacello new
+    baseline: 'ISO3166';
+    repository: 'github://hernanmd/ISO3166/repository';
+    load.
 ```
 
-[//]: # (pidev)
-## Development version
+## Install ISO3166 for Baseline
 
-```smalltalk
-Metacello new   
-  smalltalkhubUser: 'hernan'   
-  project: 'ISO3166';    
-  configuration: 'ISO3166';    
-  version: #development;
-  load.
-```
+If you want to add the ISO3166 to your Metacello Baselines or Configurations, copy and paste the following expression:
+
+	" ... "
+	spec
+		baseline: 'ISO3166' 
+		with: [ spec repository: 'github://hernanmd/ISO3166/repository' ];
+	" ... "
 
 # Usage
 

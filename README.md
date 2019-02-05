@@ -1,10 +1,17 @@
 # ISO3166
 
-ISO 3166-1 implementation for Pharo Smalltalk
+[ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) implementation for Pharo Smalltalk.
+
+# Table of Contents
+
+- [Installation](#installation)
+- [Usage examples](#usage-examples)
+- [Contribute](#contribute)
+- [License](#license)
 
 # Installation
 
-## Install ISO3166 from Command-Line Interface using Pharo Install:
+## Install ISO3166 from Command-Line Interface using [Pharo Install](https://github.com/hernanmd/pi):
 
 ```bash
 pi install ISO3166
@@ -12,7 +19,7 @@ pi install ISO3166
 
 ## Install ISO3166 from Pharo
 
-[//]: # (pist)
+[//]: # (pi)
 ```smalltalk
   Metacello new
     baseline: 'ISO3166';
@@ -20,7 +27,7 @@ pi install ISO3166
     load.
 ```
 
-## Install ISO3166 for Baseline
+## Install recipe for Baseline
 
 If you want to add the ISO3166 to your Metacello Baselines or Configurations, copy and paste the following expression:
 
@@ -30,7 +37,7 @@ If you want to add the ISO3166 to your Metacello Baselines or Configurations, co
 		with: [ spec repository: 'github://hernanmd/ISO3166/repository' ];
 	" ... "
 
-# Usage
+# Usage examples
 
 Get a sorted Collection with all ISO-3166 codes:
 ```smalltalk
@@ -70,11 +77,28 @@ Obtain a String representing the country code top-level domain of Denmark:
 (ISO3166P1 atCountryName: 'Denmark') ccTLD. " '.dk' "
 ```
 
+# Contribute
+
+**Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
+
+If you have discovered a bug or have a feature suggestion, feel free to create an [issue on Github](https://github.com/hernanmd/ISO3166/issues).
+
+If you have any suggestions for how this package could be improved, please get in touch or suggest an improvement using the GitHub issues page.
+
+If you'd like to make some changes yourself, see the following:    
+
+  - Fork this repository to your own GitHub account and then clone it to your local device
+  - Do some modifications
+  - Test.
+  - Add <your GitHub username> to add yourself as author below.
+  - Finally, submit a pull request with your changes!
+  - This project follows the [all-contributors specification](https://github.com/kentcdodds/all-contributors). Contributions of any kind are welcome!
+
 # License
 
 This software is licensed under the MIT License.
 
-Copyright Hernán Morales, 2018.
+Copyright Hernán Morales, 2018-2019.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 

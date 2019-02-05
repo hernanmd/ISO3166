@@ -1,13 +1,14 @@
-# ISO3166
-
-[ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) implementation for Pharo Smalltalk.
-
 # Table of Contents
 
+- [Description](#description)
 - [Installation](#installation)
 - [Usage examples](#usage-examples)
 - [Contribute](#contribute)
 - [License](#license)
+
+# Description
+
+[ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) implementation for Pharo Smalltalk.
 
 # Installation
 

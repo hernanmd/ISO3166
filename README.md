@@ -22,7 +22,7 @@ pi install ISO3166
 
 [//]: # (pi)
 ```smalltalk
-  Metacello new
+Metacello new
     baseline: 'ISO3166';
     repository: 'github://hernanmd/ISO3166/repository';
     load.
@@ -32,11 +32,13 @@ pi install ISO3166
 
 If you want to add the ISO3166 to your Metacello Baselines or Configurations, copy and paste the following expression:
 
+```smalltalk
 	" ... "
 	spec
 		baseline: 'ISO3166' 
 		with: [ spec repository: 'github://hernanmd/ISO3166/repository' ];
 	" ... "
+```
 
 # Usage examples
 

@@ -22,10 +22,14 @@ pi install ISO3166
 
 [//]: # (pi)
 ```smalltalk
+[
+EpMonitor current disable.
 Metacello new
     baseline: 'ISO3166';
     repository: 'github://hernanmd/ISO3166/repository';
-    load.
+    load
+]
+ensure: [ EpMonitor current enable ]
 ```
 
 ## Install recipe for Baseline

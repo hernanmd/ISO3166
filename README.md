@@ -22,14 +22,12 @@ pi install ISO3166
 
 [//]: # (pi)
 ```smalltalk
-[
-EpMonitor current disable.
-Metacello new
-    baseline: 'ISO3166';
-    repository: 'github://hernanmd/ISO3166/repository';
-    load
-]
-ensure: [ EpMonitor current enable ]
+EpMonitor disableDuring: [ 
+	Metacello new
+		baseline: 'ISO3166';
+		onConflictUseLoaded;
+		repository: 'github://hernanmd/ISO3166/repository';
+		load ].
 ```
 
 ## Install recipe for Baseline
@@ -105,7 +103,7 @@ If you'd like to make some changes yourself, see the following:
 
 This software is licensed under the MIT License.
 
-Copyright Hernán Morales, 2018-2019.
+Copyright Hernán Morales, 2018-2021.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 

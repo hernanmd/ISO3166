@@ -12,15 +12,8 @@
 
 # Installation
 
-## Install ISO3166 from Command-Line Interface using [Pharo Install](https://github.com/hernanmd/pi):
-
-```bash
-pi install ISO3166
-```
-
 ## Install ISO3166 from Pharo
 
-[//]: # (pi)
 ```smalltalk
 EpMonitor disableDuring: [ 
 	Metacello new
@@ -28,6 +21,12 @@ EpMonitor disableDuring: [
 		onConflictUseLoaded;
 		repository: 'github://hernanmd/ISO3166/repository';
 		load ].
+```
+
+## Install ISO3166 from Command-Line Interface using [Pharo Install](https://github.com/hernanmd/pi):
+
+```bash
+pi install ISO3166
 ```
 
 ## Install recipe for Baseline
